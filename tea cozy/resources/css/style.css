@@ -1,0 +1,121 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  margin-top: 0;
+  padding-top: 0;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+
+#logo {
+  padding-left: 10px;
+  position: fixed;
+}
+
+nav {
+  flex-flow: row wrap;
+  flex-grow: 1;
+  margin-left: 170px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+nav span {
+  display: inline-flex;
+  padding: 0px 10px;
+  text-decoration: underline;
+}
+
+.splash {
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  height: 700px;
+  padding-top: 69px;
+}
+
+.splash h2 {
+  background-color: black;
+  display: block;
+  margin: 0px;
+  padding: 10px;
+  width: 1200px;
+  z-index: 15;
+}
+
+.splash h4 {
+  background-color: black;
+  display: block;
+  margin: 0px;
+  padding: 10px;
+  width: 1200px;
+  z-index: 15;
+}
+
+h2 h4 {
+  margin: 1000px;
+}
+
+.month-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.month-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.month {
+  padding: 0 10px;
+}
+
+.all-locations {
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  height: 700px;
+  padding-top: 69px;
+}
+
+.location {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 20px;
+  width: 300px;
+}
+
+.copyright {
+  text-align: left;
+}
